@@ -1,0 +1,12 @@
+# 依存パッケージ（GitHubに上げない／Railwayが自動でinstallする）
+node_modules/
+
+# 環境変数（TOKENなどの秘密情報。絶対にGitHubに上げない）
+.env
+
+# ローカルのデータ保存ファイル
+data.json
+
+# ログ・OS生成ファイル
+*.log
+.DS_Store
